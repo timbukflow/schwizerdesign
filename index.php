@@ -7,8 +7,7 @@
   <?php include 'nav.php'; ?>
   <?php include 'js-script.php'; ?>
   <main id="swup" class="transition-fade">
-    <h1>this is the homepage</h1>
-      <div class="backgroundtesthome"></div>
+      <a href="/projekte"><img src="img/test.jpg" alt="test"></a>
   </main>
 
 
