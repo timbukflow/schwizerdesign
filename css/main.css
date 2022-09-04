@@ -80,7 +80,7 @@ nav ul li {
 
 
 .transition-fade {
-  width: 410;
+  width: 410px;
   display: inline-block;
   overflow: hidden;
   transition: 2s;
@@ -90,10 +90,6 @@ html.is-animating .transition-fade {
   width: 0px;
 }
 
-
-.testbild {
-  width: 800px;
-}
 
 
 .backgroundtest {
