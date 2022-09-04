@@ -82,12 +82,20 @@ nav ul li {
 
   font-size: 40px;
 }
-
-.transition-fade {
+.img01 {
   position: absolute;
   top: 20%;
   left: 50%;
-  width: 410px;
+}
+.img02 {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 700px;
+}
+
+.transition-fade {
+  width: 100%;
   display: inline-block;
   overflow: hidden;
   transition: 2s;
