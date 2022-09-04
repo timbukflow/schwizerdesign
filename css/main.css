@@ -48,10 +48,11 @@ textarea {
     font-style: normal;
 }
 
-header, a {
+header, h1, a {
   font-family: 'soehne', Helvetica, Sans-Serif;
   font-size: 20px;
   color: #1E1E1E;
+  font-weight: 100;
   text-decoration: none;
 }
 /* --- header --- */

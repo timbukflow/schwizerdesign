@@ -5,8 +5,11 @@
 
 <body>
   <?php include 'nav.php'; ?>
-  <!-- Add your site or application content here -->
+  <main id="swup" class="transition-fade">
+    <h1>this is the page</h1>
+  </main>
   <div class="backgroundtest"></div>
+  <?php include 'js-script.php'; ?>
 </body>
 
 </html>
