@@ -8,8 +8,9 @@
   <?php include 'nav.php'; ?>
   <main id="swup" class="transition-fade">
     <h1>this is the page</h1>
+    <div class="backgroundtest"></div>
   </main>
-  <div class="backgroundtest"></div>
+
 
 </body>
 
