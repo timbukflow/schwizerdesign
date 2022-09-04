@@ -81,13 +81,11 @@ nav ul li {
 
 .transition-fade {
   width: 500px;
-  opacity: 1;
   transition: 500ms;
 }
 
 html.is-animating .transition-fade {
-  width: 100%;
-  opacity: 0;
+  width: 800px;
 }
 
 
