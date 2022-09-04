@@ -84,6 +84,7 @@ nav ul li {
 }
 
 .transition-fade {
+  position: relative;
   width: 100%;
   display: inline-block;
   overflow: hidden;
@@ -98,7 +99,7 @@ html.is-animating .transition-fade {
 
 }
 .img02 {
-
+position: relative;
   top: 70%;
   left: 10%;
   width: 700px;
