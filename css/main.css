@@ -84,7 +84,7 @@ nav ul li {
   transition: 5s;
 }
 
-html.is-animating .transition-fade {
+html.is-leaving .transition-fade {
   width: 800px;
 }
 
