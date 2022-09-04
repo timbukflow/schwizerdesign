@@ -6,7 +6,7 @@
 <body>
   <?php include 'js-script.php'; ?>
   <?php include 'nav.php'; ?>
-  <main >
+  <main id="swup" class="transition-fade">
     <img src="img/test.jpg" alt="test">
   </main>
 
