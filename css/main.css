@@ -80,8 +80,8 @@ nav ul li {
 
 
 .transition-fade {
-  width: 500px;
-  transition: 500ms;
+  width: 50px;
+  transition: 5s;
 }
 
 html.is-animating .transition-fade {
