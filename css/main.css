@@ -78,6 +78,12 @@ nav ul li {
     display: inline-block;
 }
 
+.hhh {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 40px;
+}
 
 .transition-fade {
   width: 410px;
