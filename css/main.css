@@ -79,11 +79,14 @@ nav ul li {
 }
 
 .hhh {
-  
+
   font-size: 40px;
 }
 
 .transition-fade {
+  position: absolute;
+  top: 20%;
+  left: 50%;
   width: 410px;
   display: inline-block;
   overflow: hidden;
