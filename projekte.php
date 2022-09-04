@@ -7,7 +7,7 @@
   <?php include 'js-script.php'; ?>
   <?php include 'nav.php'; ?>
   <main >
-    <img class="testbild" src="img/test.jpg" alt="test">
+    <img id="swup" class="transition-fade" class="testbild" src="img/test.jpg" alt="test">
   </main>
 
 

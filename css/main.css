@@ -80,12 +80,12 @@ nav ul li {
 
 
 .transition-fade {
-  width: 50px;
+  opacity: 1;
   transition: 5s;
 }
 
-html.is-leaving .transition-fade {
-  width: 800px;
+html.is-animating .transition-fade {
+  opacity: 0;
 }
 
 .testbild {
