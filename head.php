@@ -15,6 +15,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/locomotive.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>

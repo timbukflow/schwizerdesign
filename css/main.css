@@ -55,9 +55,12 @@ header, h1, a {
   font-weight: 100;
   text-decoration: none;
 }
+
 /* --- header --- */
 
 header {
+  position: fixed;
+  z-index: 1;
   margin: 0 5%;
   width: 90%;
   display: inline-block;
@@ -78,44 +81,44 @@ nav ul li {
     display: inline-block;
 }
 
-.hhh {
+/* --- End header --- */
 
-  font-size: 40px;
+section {
+  height: 100vh;
+  padding: 10em;
+  background-color: #FD9898;
+  color: #fff;
 }
 
-.transition-fade {
+.section2 {
+  background-color: #FF5098;
+}
+
+h1 {
+  font-size: 3em;
   position: relative;
-  width: 100%;
-  display: inline-block;
-  overflow: hidden;
-  transition: 2s;
+  bottom: 0;
+}
+.left-h1{
+    color: #253439;
+    font-size: 40px;
+    font-weight: bolder;
+    padding:2em 0 1em 3em;
+
 }
 
-html.is-animating .transition-fade {
-  width: 0px;
+p {
+  font-size: 1.5em;
 }
 
-.img01 {
+.fff {
+  opacity: 0;
+  transition: 3s;
 
 }
-.img02 {
 
-  top: 70%;
-  left: 10%;
-  width: 700px;
-}
-
-
-
-.backgroundtest {
- background-color: #000;
- width: 100%;
- height: 100vh;
-}
-.backgroundtesthome {
- background-color: #fcba03;
- width: 100%;
- height: 100vh;
+.scroll-class {
+  opacity: 1;
 }
 
 
