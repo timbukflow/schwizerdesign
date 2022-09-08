@@ -6,10 +6,10 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
     mobile: {
-       smooth: true
+       smooth: false
    },
    tablet: {
-       smooth: true
+       smooth: false
    },
     multiplier: 1,
     class: "is-inview",
