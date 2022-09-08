@@ -85,7 +85,12 @@ nav ul li {
 
 section {
   height: 100vh;
-  width: 100%;
+  width: 90%;
+  margin: 5%;
+}
+.section2 {
+  background-color: blue;
+  height: auto;
 }
 .helloholder {
   position: absolute;
@@ -100,23 +105,45 @@ section {
   padding: 10px;
   display: inline-block;
 }
+.bimg {
+  background-image: url('../img/df.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 .icon {
-  bottom: 2.5rem;
+  top: 0;
   opacity: 0;
-  width: 50px;
-  height: 50px;
+  width: 0px;
+  height: 90vh;
+  margin: 5vh 0;
   background-color: black;
   position: absolute;
-  right: 0;
-  transform: translateY(120px);
-  transition: opacity 0s cubic-bezier(.215,.61,.355,1),transform 0s cubic-bezier(.215,.61,.355,1);
+  transition-timing-function: ease-in;
+  transition: 1s;
 }
 .is-ready {
     opacity: 1;
-    transform: none;
-    transition-delay: 1s;
-    transition-duration: 1s;
+    width: 500px;
+    transition-delay: 0.5s;
+
 }
+.info {
+  position: relative;
+  left: 500px;
+  top: 50px;
+  opacity: 0;
+  padding: 50px;
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+.is-ready-go {
+  top: 0;
+  opacity: 1;
+}
+
 
 .container {
   display: inline-block;;
@@ -126,18 +153,14 @@ section {
 /* --- TESTING --- */
 
 .c-header_line {
-    bottom: 0;
-    border-width: 10px;
-    color: #fff;
-    left: 0;
-    margin: 0;
-    position: absolute;
-    right: 0;
-    transform: scaleX(0);
-    transition: transform .6s cubic-bezier(.215,.61,.355,1);
+    border-width: 2px;
+    width: 10px;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
 }
 .c-header_line.is-inview {
-    transform: scaleX(1);
+    width: 300px;
 
 /* --- End TESTING --- */
 

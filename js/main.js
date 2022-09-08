@@ -1,5 +1,6 @@
 $( document ).ready(function() {
     $(".icon").addClass('is-ready');
+    $(".info").addClass('is-ready-go');
 });
 
 const scroll = new LocomotiveScroll({
