@@ -5,9 +5,6 @@ $( document ).ready(function() {
 const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
-    tablet: {
-    breakpoint: 0,
-  },
     multiplier: 1,
     class: "is-inview",
 });

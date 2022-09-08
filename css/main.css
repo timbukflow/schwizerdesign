@@ -85,34 +85,20 @@ nav ul li {
 
 section {
   height: 100vh;
-  background-color: #FD9898;
-  color: #fff;
+  width: 100%;
 }
-
-.section2 {
-  background-color: #FF5098;
+.helloholder {
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
 }
-
-h1 {
-  font-size: 3em;
+.Hello {
+  font-size: 300px;
   position: relative;
-  bottom: 0;
-}
-.left-h1{
-    color: #253439;
-    font-size: 40px;
-    font-weight: bolder;
-    padding:2em 0 1em 3em;
-
-}
-
-p {
-  font-size: 1.5em;
-}
-
-.fff {
-  opacity: 0;
-  transition: 3s;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+  display: inline-block;
 }
 .icon {
   bottom: 2.5rem;
@@ -131,12 +117,11 @@ p {
     transition-delay: 1s;
     transition-duration: 1s;
 }
-.incoming {
-position: absolute;
-left:50%; top:50%;
-transform: translateY(60px);
-transition:1s;
+
+.container {
+  display: inline-block;;
 }
+
 
 /* --- TESTING --- */
 
