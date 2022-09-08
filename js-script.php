@@ -1,7 +1,7 @@
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/locomotive-scroll.min.js"></script>
-
 <script src="js/main.js"></script>
 
 
