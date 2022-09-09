@@ -22,7 +22,7 @@ function animate() {
   scrollableSection.style.transform = `translate3d(0, ${-current}px, 0)`;
   images.forEach(image => {
     let top = image.parentElement.getBoundingClientRect().top;
-    image.style.transform = `rotatex(${top * 0.1}deg) rotatey(${top * 0.1}deg)`
+    image.style.transform = `rotatex(${top * 0.05}deg) rotatey(${top * 0.05}deg)`
   });
 
   requestAnimationFrame(animate);

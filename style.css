@@ -16,6 +16,15 @@ main {
   height: 100vh;
 }
 
+.sss {
+  font-size: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
 .scrollable {
   position: absolute;
   top: 0;
@@ -28,6 +37,7 @@ main {
   position: relative;
   width: 100%;
   height: 75vh;
+  float: left;
 }
 
 .image-item {
@@ -35,7 +45,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 50%;
   height: 400px;
   perspective: 1000px;
   transform-style: preserve-3d;
