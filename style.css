@@ -17,7 +17,7 @@ main {
 }
 
 .sss {
-  font-size: 500px;
+  font-size: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -25,7 +25,7 @@ main {
   z-index: 0;
 }
 .sssd {
-  font-size: 500px;
+  font-size: 400px;
   color: transparent;
   -webkit-text-stroke: 2px #fff;
   position: absolute;
