@@ -1,1 +1,0 @@
-# schwizerdesign.ch
