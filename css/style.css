@@ -30,13 +30,18 @@ section {
 }
 .projekte {
   top: 100vh;
-  background-color: #fff;
+  display: inline-block;
 }
 
 h1 {
   font-family: 'Poppins', Helvetica, Sans-Serif;
   font-size: 15px;
   color: #fff;
+}
+
+.ddd {
+  font-size: 250px;
+  line-height: 220px;
 }
 
 .logo {
