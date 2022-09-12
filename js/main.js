@@ -14,7 +14,7 @@
     delay: anime.stagger(50),
     loop: true,
     autoplay: false,
-    duration: 600,
+    duration: 2000,
     loopComplete: (a) => console.log('end'),
     //update: () => console.log(staggersAnimation.progress)
   })
@@ -37,14 +37,11 @@
     delay: anime.stagger(10, {from: 'first'}),
   })
 
-
-
   .add({
     translateX: 0,
     translateY: 0,
     scale: 1,
     rotate: 0,
-    duration: 800,
     delay: 0,
   });
 
