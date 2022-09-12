@@ -3,44 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sroll 3D</title>
 </head>
 <body>
+  <header>
+    <h1 class="logo">SchwizerDesign</h1>
+  </header>
+  <div class="stagger-visualizer"></div>
+  <script src="js/anime.min.js"></script>
+  <script src="js/main.js"></script>
 
-<svg viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
-  <filter id="displacementFilter">
-      <feTurbulence type="turbulence" baseFrequency="0.01"
-      numOctaves="2" result="turbulence"/>
-      <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50" xChannelSelector="R" yChannelSelector="G"/>
-  </filter>
-  <path style="filter: url(#displacementFilter); transform-origin:center;" fill="#000000" d="M226.6,258.4c6.6,9.8,17.2,12.7,26,12.7c10.5,0,18.1-3.5,18.1-8.7c0-6.2-4.9-6.7-22-8.6c-14.9-1.7-25.5-4.1-25.5-15.5
-		c0-10.6,10.4-18.3,26.7-18.3c12.9,0,24.7,4.9,29.6,12.5l-7.5,6.3c-4.2-6.3-12.4-9.8-22.5-9.8c-11.6,0-16.4,4-16.4,8.2
-		c0,4.6,3.7,5.8,19,7.6c17.7,2,28.7,4,28.7,16.4c0,12.4-12.6,19-28.5,19c-14.4,0-27.7-5.9-33.2-14.8L226.6,258.4z"/>
-</svg>
-
-    <script src=”https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js”></script>
-
-    <script>
-
-    let tl = anime.timeline({
-            easing: 'easeInOutQuart',
-            duration: 4000
-        })
-
-    tl.add({
-      targets: 'svg',
-      keyframes: [
-        {scale: .3, rotate: '0deg'},
-        {scale: .5, rotate: '360deg'},
-      ],
-      duration: 3000
-    })
-
-    </script>
 
     <!--<script src="app.js"></script>-->
 </body>
