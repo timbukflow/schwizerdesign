@@ -19,16 +19,15 @@
     //update: () => console.log(staggersAnimation.progress)
   })
   .add({
-    translateX: 0,
-    translateY: anime.stagger(10, {from: 'center', direction: 'reverse', easing: 'easeOutQuad'}),
-    rotate: 0,
-    delay: anime.stagger(10, {from: 'first'}),
+    translateX: anime.stagger(100, {grid: [3, 7], from: 'first', axis: 'x'}),
+    translateY: anime.stagger(10, {grid: [3, 7], from: 'first', axis: 'y'}),
+    rotate: anime.stagger(10, {grid: [3, 7], from: 'first', axis: 'y'}),
   })
   .add({
-    translateX: anime.stagger(50, {from: 'center', easing: 'easeOutQuad'}),
-    translateY: 0,
-    rotate: 0,
-    delay: anime.stagger(10, {from: 'last'}),
+    translateX: anime.stagger(10, {grid: [7, 3], from: 'first', axis: 'x'}),
+    translateY: anime.stagger(100, {grid: [7, 3], from: 'first', axis: 'y'}),
+    rotate: anime.stagger(30, {grid: [7, 3], from: 'first', axis: 'y'}),
+    easing: 'easeInCirc',
   })
   .add({
     translateX: anime.stagger([100, -100], {from: 'first', easing: 'easeOutQuad'}),
