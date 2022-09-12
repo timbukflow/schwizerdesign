@@ -14,18 +14,24 @@
     delay: anime.stagger(50),
     loop: true,
     autoplay: false,
-    duration: 2000,
+    duration: 3000,
     loopComplete: (a) => console.log('end'),
     //update: () => console.log(staggersAnimation.progress)
   })
   .add({
     translateX: 0,
-    translateY: anime.stagger(50, {from: 'center', direction: 'reverse'}),
+    translateY: anime.stagger(10, {from: 'center', direction: 'reverse', easing: 'easeOutQuad'}),
     rotate: 0,
     delay: anime.stagger(10, {from: 'first'}),
   })
   .add({
-    translateX: anime.stagger([25, -25], {from: 'first'}),
+    translateX: anime.stagger(50, {from: 'center', easing: 'easeOutQuad'}),
+    translateY: 0,
+    rotate: 0,
+    delay: anime.stagger(10, {from: 'last'}),
+  })
+  .add({
+    translateX: anime.stagger([100, -100], {from: 'first', easing: 'easeOutQuad'}),
     translateY: 0,
     rotate: anime.stagger([40, -40], {from: 'first'}),
     delay: anime.stagger(10, {from: 'first'}),
