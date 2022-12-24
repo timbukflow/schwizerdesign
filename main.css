@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'SohneBuch';
-    src: url(assets/fonts/f1d2f6891ec02f44.woff) format('woff');
+    src: url('font/TestSöhne-Buch.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneKraftig';
-    src: url(assets/fonts/603834ed5146221d.woff) format('woff');
+    src: url('font/TestSöhne-Kräftig.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneLeicht';
-    src: url(assets/fonts/0d699d50e90b3005.woff) format('woff');
+    src: url('font/TestSöhne-Leicht.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneBreitBuch';
-    src: url(assets/fonts/a0fb9e2ee052a0a6.woff) format('woff');
+    src: url('font/TestSöhneBreit-Buch.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneBreitKraftig';
-    src: url(assets/fonts/c3ed076e635e024f.woff) format('woff');
+    src: url('font/TestSöhneBreit-Kräftig.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneBreitLeicht';
-    src: url(assets/fonts/a58b5f4f4d1c31e0.woff) format('woff');
+    src: url('font/TestSöhneBreit-Leicht.woff') format('woff');
 }
 
 
@@ -43,6 +43,7 @@ h1, a {
     font-weight: normal;
     text-decoration: none;
     color: #292929;
+    font-size: 90px;
 }
 
 a {   
@@ -56,14 +57,15 @@ a {
 
 /* Sohne */
 
-h2, .description, footer a, footer p {
+h2, h3, p, .description, footer a, ul,li {
     font-family: 'SohneLeicht', Helvetica, Sans-Serif;
     font-weight: normal;
     text-decoration: none;
     color: #292929;
     font-size: 20px;
     letter-spacing: 0.2px;
-    line-height: 1.25;
+    line-height: 1.3;
+    list-style: none;
 }
 
 
@@ -71,6 +73,7 @@ h2, .description, footer a, footer p {
 
 nav {
     position: fixed;
+    top: 0;
     width: 100%;
     padding: 20px 30px;
     z-index: 100;
@@ -110,7 +113,7 @@ header .description {
 }
 
 
-/* Section Home */
+/* Home Section  */
 
 .gridContainer {
     padding: 25px;
@@ -134,13 +137,71 @@ header .description {
 }
 
 
-img {
+img, video{
     width: 100%;
+    display: inherit;
+}
+
+/* Projecte Section */
+
+.projectHeader {
+    margin-top: 20vh;
+    height: auto;  
+}
+
+.projectTitel {
+    text-align: center;
+}
+
+.projectTitel h1 {
+}
+
+.projectDescription {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+}
+.projectDescription ul {
+    padding: 0;
+    margin: 0;
+}
+.projectDescription li:first-child {
+    color: #c0c0c0;
+}
+.projectDescription span {
+    display: block;
+    text-indent: 2.5em;
+}
+
+/* Project Content Grid Section */
+
+.pGridContainer {
+    padding: 25px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    z-index: 90;
+}
+
+.pGridItem1 {grid-column: span 1;}
+.pGridItem2 {grid-column: span 2;}
+.pGridItem3 {grid-column: span 3;}
+
+.gridItem h2 {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 45px;
+    margin: 0;
 }
 
 /* Footer */
 
 footer {
+    position: relative;
+    z-index: 20;
     padding: 150px 30px 80px;
 }
 
