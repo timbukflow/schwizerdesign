@@ -42,6 +42,16 @@
             src="img/ralph-schelling-catering-cooking-consulting-schwizer-design.jpg" alt=""
             title="hallo">
         </article>
+        <article class="pGridItem2">
+            <img 
+            src="img/ralph-schelling-burger-speck-logo-schwizer-design.jpg" alt=""
+            title="hallo">
+        </article>
+        <article class="pGridItem3">
+            <img 
+            src="img/ralph-schelling-logo-detail-schwizer-design.png" alt=""
+            title="hallo">
+        </article>
         <article class="pGridItem1">
             <video 
                 preload="none" 
@@ -50,16 +60,30 @@
                 src="video/ralph-schelling-logo-animation.mp4">
             </video>
         </article>
-        <article class="pGridItem">
+        <article class="pGridItem1">
             <img 
-            src="img/ralph-schelling-catering-cooking-consulting-schwizer-design.jpg" alt=""
+            src="img/ralph-schelling-salat-hummer-hummus-schwizer-design.jpg" alt=""
             title="hallo">
         </article>
-        <article class="pGridItem">
+        <article class="pGridItem1">
             <img 
-            src="img/ralph-schelling-catering-cooking-consulting-schwizer-design.jpg" alt=""
+            src="img/ralph-schelling-salat-teller-schwizer-design.jpg" alt=""
             title="hallo">
         </article>
+        <article class="pGridItem3">
+            <img 
+            src="img/ralph-schelling-catering-cooking-consulting-karotte-schwizer-design.jpg" alt=""
+            title="hallo">
+        </article>
+        <article class="pGridItem1">
+            <video 
+                preload="none" 
+                type="video/mp4" 
+                autoplay muted playsinline loop 
+                src="video/ralph-schelling-rezept-iphone.mp4">
+            </video>
+        </article>
+        
     </section>
 
 
