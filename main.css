@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'SohneBuch';
-    src: url('font/TestSöhne-Buch.woff') format('woff');
+    src: url('/font/TestSöhne-Buch.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneKraftig';
-    src: url('font/TestSöhne-Kräftig.woff') format('woff');
+    src: url('/font/TestSöhne-Kräftig.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneLeicht';
-    src: url('font/TestSöhne-Leicht.woff') format('woff');
+    src: url('/font/TestSöhne-Leicht.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneBreitBuch';
-    src: url('font/TestSöhneBreit-Buch.woff') format('woff');
+    src: url('/font/TestSöhneBreit-Buch.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneBreitKraftig';
-    src: url('font/TestSöhneBreit-Kräftig.woff') format('woff');
+    src: url('/font/TestSöhneBreit-Kräftig.woff') format('woff');
 }
 @font-face {
     font-family: 'SohneBreitLeicht';
-    src: url('font/TestSöhneBreit-Leicht.woff') format('woff');
+    src: url('/font/TestSöhneBreit-Leicht.woff') format('woff');
 }
 
 
