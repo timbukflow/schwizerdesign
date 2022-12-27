@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+
+    <meta name="description" content="zwischen 130 und 160 Zeichen">
     <title>Ralph Schelling</title>
+    
 </head>
 <body>
     <header class="projectHeader">
@@ -38,52 +41,109 @@
 
     <section class="pGridContainer">
         <article class="pGridItem1">
-            <img 
-            src="img/ralph-schelling-catering-cooking-consulting-schwizer-design.jpg" alt=""
-            title="hallo">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-catering-cooking-consulting-logo.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-catering-cooking-consulting-logo.jpg" >
+                <img 
+                    src="img/ralph-schelling-catering-cooking-consulting-logo.jpg" 
+                    alt="ralph schelling posiert mit eingelegten kirschen vor grauem hintergrund"
+                    loading="lazy"
+                >
+            </picture>
         </article>
         <article class="pGridItem2">
-            <img 
-            src="img/ralph-schelling-burger-speck-logo-schwizer-design.jpg" alt=""
-            title="hallo">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-burger-barbecue-sauce-speck.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-burger-barbecue-sauce-speck.jpg" >
+                <img 
+                    src="img/ralph-schelling-burger-barbecue-sauce-speck.jpg" 
+                    alt="burger mit barbecue sauce und speck auf einem aluminiumblech mit ralph logo"
+                    loading="lazy"
+                >
+            </picture>
         </article>
         <article class="pGridItem3">
-            <img 
-            src="img/ralph-schelling-logo-detail-schwizer-design.png" alt=""
-            title="hallo">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-logo-detail.webp" >
+                <source type="image/png" srcset="img/ralph-schelling-logo-detail.png" >
+                <img 
+                    src="img/ralph-schelling-logo-detail.png" 
+                    alt="logo detail von ralph schelling corporate desing"
+                    loading="lazy"
+                >
+            </picture>
         </article>
         <article class="pGridItem1">
-            <video 
-                preload="none" 
-                type="video/mp4" 
-                autoplay muted playsinline loop 
-                src="video/ralph-schelling-logo-animation.mp4">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-gelbe-quitten-schimmelkäse.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-gelbe-quitten-schimmelkäse.jpg" >
+                <img 
+                    src="img/ralph-schelling-gelbe-quitten-schimmelkäse.jpg" 
+                    alt="gelbe quitten und schimmelkäse auf altem holztisch mit ralph schelling und dem käser"
+                    loading="lazy"
+                >
+            </picture>
+        </article>
+        <article class="pGridItem1">
+            <video preload="none" autoplay muted playsinline loop > 
+                <source type="video/mp4" src="video/ralph-schelling-logo-typografie-animation.mp4" >  
             </video>
         </article>
         <article class="pGridItem1">
-            <img 
-            src="img/ralph-schelling-salat-hummer-hummus-schwizer-design.jpg" alt=""
-            title="hallo">
-        </article>
-        <article class="pGridItem1">
-            <img 
-            src="img/ralph-schelling-salat-teller-schwizer-design.jpg" alt=""
-            title="hallo">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-schinken-schneiden.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-schinken-schneiden.jpg" >
+                <img 
+                    src="img/ralph-schelling-schinken-schneiden.jpg" 
+                    alt="ralph schellng schneidet saftigen schinken auf weissem tisch mit kräuter im hintergrund"
+                    loading="lazy"
+                >
+            </picture>
         </article>
         <article class="pGridItem3">
-            <img 
-            src="img/ralph-schelling-catering-cooking-consulting-karotte-schwizer-design.jpg" alt=""
-            title="hallo">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-logo-karotten.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-logo-karotten.jpg" >
+                <img 
+                    src="img/ralph-schelling-logo-karotten.jpg" 
+                    alt="ralph schellng beisst in orangene karotten vor einem grün orang gestreiften hintergrund"
+                    loading="lazy"
+                >
+            </picture>
+        </article> 
+        <article class="pGridItem1">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-recipes-cured-beef-sandwich-with-tapenade.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-recipes-cured-beef-sandwich-with-tapenade.jpg" >
+                <img 
+                    src="img/ralph-schelling-recipes-cured-beef-sandwich-with-tapenade.jpg" 
+                    alt="recipes cured beef sandwich with tapenade"
+                    loading="lazy"
+                >
+            </picture>
         </article>
         <article class="pGridItem1">
-            <video 
-                preload="none" 
-                type="video/mp4" 
-                autoplay muted playsinline loop 
-                src="video/ralph-schelling-rezept-iphone.mp4">
-            </video>
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-recipes-roasted-pulpo-with-bay-leaves.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-recipes-roasted-pulpo-with-bay-leaves.jpg" >
+                <img 
+                    src="img/ralph-schelling-recipes-roasted-pulpo-with-bay-leaves.jpg" 
+                    alt="recipes roasted pulpo with bay leaves"
+                    loading="lazy"
+                >
+            </picture>
         </article>
-        
+        <article class="pGridItem1">
+            <picture>
+                <source type="image/webp" srcset="img/ralph-schelling-recipes-salmon-with-a-lemon-pepper-crust.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-recipes-salmon-with-a-lemon-pepper-crust.jpg" >
+                <img 
+                    src="img/ralph-schelling-recipes-salmon-with-a-lemon-pepper-crust.jpg" 
+                    alt="recipes salmon with a lemon pepper crust"
+                    loading="lazy"
+                >
+            </picture>
+        </article>       
     </section>
 
 
