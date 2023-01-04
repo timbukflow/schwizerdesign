@@ -43,11 +43,8 @@
     
 
 
-    <nav>
-        <a class="linkStart" href="index.html">SchwizerDesign</a>
-        <a class="linkAbout" href="index">Work</a>
-    </nav>
-   
+    <?php include 'nav.php'; ?>
     <?php include 'footer.php'; ?>
+    <?php include 'script.php'; ?>
 </body>
 </html>

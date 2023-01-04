@@ -46,128 +46,104 @@
         </article>
         <article class="pGridItem1">
             <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-christa-rempfler-portrait.webp" >
-                <source type="image/jpg" srcset="img/advokatur-treuhand-falkenstein-christa-rempfler-portrait.jpg" >
+                <source type="image/webp" srcset="img/origym-scuol-anthrazit-t-shirt.webp" >
+                <source type="image/png" srcset="img/origym-scuol-anthrazit-t-shirt.png" >
                 <img 
-                    src="img/advokatur-treuhand-falkenstein-christa-rempfler-portrait.jpg" 
-                    alt="portrait von christa rempfler advokatur am falkenstein schwarz weiss fotografie und bildkonzept"
+                    src="img/origym-scuol-anthrazit-t-shirt.jpg" 
+                    alt="portrait von arno mit anthrazitem origym t-shirt auf grauem hintergrund"
                     loading="lazy"
                 >
             </picture>
         </article>
         <article class="pGridItem1">
             <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-rolf-rempfler-iphone.webp" >
-                <source type="image/png" srcset="img/advokatur-treuhand-falkenstein-rolf-rempfler-iphone.png" >
+                <source type="image/webp" srcset="img/origym-scuol-weisses-t-shirt.webp" >
+                <source type="image/png" srcset="img/origym-scuol-weisses-t-shirt.png" >
                 <img 
-                    src="img/advokatur-treuhand-falkenstein-rolf-rempfler-iphone.jpg" 
-                    alt="mobile webdesign mit portrait von rolf rempfler advokatur am falkenstein in schwarz weiss"
+                    src="img/origym-scuol-weisses-t-shirt.png" 
+                    alt="portrait von sabrina mit weissem origym t-shirt auf grauem hintergrund"
                     loading="lazy"
                 >
             </picture>
         </article>
         <article class="pGridItem1">
             <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-rolf-rempfler-iphone-zitat.webp" >
-                <source type="image/png" srcset="img/advokatur-treuhand-falkenstein-rolf-rempfler-iphone-zitat.png" >
+                <source type="image/webp" srcset="img/origym-scuol-schwarzer-hoody.webp" >
+                <source type="image/png" srcset="img/origym-scuol-schwarzer-hoody.png" >
                 <img 
-                    src="img/advokatur-treuhand-falkenstein-rolf-rempfler-iphone-zitat.png" 
-                    alt="mobile webdesign mit portrait von rolf rempfler advokatur am falkenstein mit tennisschläger auf grauem hintergrund"
+                    src="img/origym-scuol-schwarzer-hoody.png" 
+                    alt="portrait von nici mit schwarzem origym hoody auf grauem hintergrund"
                     loading="lazy"
                 >
             </picture>
         </article>
         <article class="pGridItem1">
             <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-andreas-thuerlimann-tanja-coskun-ivanovic-iphone.webp" >
-                <source type="image/png" srcset="img/advokatur-treuhand-falkenstein-andreas-thuerlimann-tanja-coskun-ivanovic-iphone.png" >
+                <source type="image/webp" srcset="img/origym-scuol-indoor-training-disco-light.webp" >
+                <source type="image/jpg" srcset="img/origym-scuol-indoor-training-disco-light.jpg" >
                 <img 
-                    src="img/advokatur-treuhand-falkenstein-andreas-thuerlimann-tanja-coskun-ivanovic-iphone.png" 
-                    alt="mobile webdesign mit portrait von andreas thuerlimann und tanja coskun ivanovic mit navigationselement"
+                    src="img/origym-scuol-indoor-training-disco-light.jpg" 
+                    alt="origym indoor training mit disco light"
                     loading="lazy"
                 >
             </picture>
         </article>
         <article class="pGridItem2">
             <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-roger-schai-portrait-fussball.webp" >
-                <source type="image/jpg" srcset="img/advokatur-treuhand-falkenstein-roger-schai-portrait-fussball.jpg" >
+                <source type="image/webp" srcset="img/origym-scuol-outdoor-training-winter.webp" >
+                <source type="image/jpg" srcset="img/origym-scuol-outdoor-training-winter.jpg" >
                 <img 
-                    src="img/advokatur-treuhand-falkenstein-roger-schai-portrait-fussball.jpg" 
-                    alt="portrait von roger schai treuhand am falkenstein lacht und wirft fussball in die luft auf grauem hintergrund."
+                    src="img/origym-scuol-outdoor-training-winter.jpg" 
+                    alt="outdoor training im winter mit origym im hintergrund."
+                    loading="lazy"
+                >
+            </picture>
+        </article>
+        <article class="pGridItem3">
+            <picture>
+                <source type="image/webp" srcset="img/origym-scuol-outdoor-training.webp" >
+                <source type="image/jpg" srcset="img/origym-scuol-outdoor-training.jpg" >
+                <img 
+                    src="img/origym-scuol-outdoor-training.jpg" 
+                    alt="origym outdoor training im sommer mit frauenpower"
                     loading="lazy"
                 >
             </picture>
         </article>
         <article class="pGridItem1">
             <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-roger-schai-portrait.webp" >
-                <source type="image/jpg" srcset="img/advokatur-treuhand-falkenstein-roger-schai-portrait.jpg" >
+                <source type="image/webp" srcset="img/origym-scuol-socken.webp" >
+                <source type="image/jpg" srcset="img/origym-scuol-socken.jpg" >
                 <img 
-                    src="img/advokatur-treuhand-falkenstein-roger-schai-portrait.jpg" 
-                    alt="portrait von roger schai treuhand am falkenstein als schwarz weiss fotografie"
-                    loading="lazy"
-                >
-            </picture>
-        </article> 
-        <article class="pGridItem1">
-            <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-frank-petermann-portrait.webp" >
-                <source type="image/jpg" srcset="img/advokatur-treuhand-falkenstein-frank-petermann-portrait.jpg" >
-                <img 
-                    src="img/advokatur-treuhand-falkenstein-frank-petermann-portrait.jpg" 
-                    alt="portrait von frank petermann advokatur am falkenstein mit schwarzem sakko in schwarz und weiss."
+                    src="img/origym-scuol-socken.jpg" 
+                    alt="weisse socken mit origym logo"
                     loading="lazy"
                 >
             </picture>
         </article>
-        <article class="pGridItem2">
-            <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-frank-petermann-portrait-buch.webp" >
-                <source type="image/jpg" srcset="img/advokatur-treuhand-falkenstein-frank-petermann-portrait-buch.jpg" >
-                <img 
-                    src="img/advokatur-treuhand-falkenstein-frank-petermann-portrait-buch.jpg" 
-                    alt="portrait von frank petermann advokatur am falkenstein mit offenem buch in der hand auf grauem hintergrund."
-                    loading="lazy"
-                >
-            </picture>
-        </article> 
-        <article class="pGridItem2">
-            <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-werner-rempfler-portrait.webp" >
-                <source type="image/jpg" srcset="img/advokatur-treuhand-falkenstein-werner-rempfler-portrait.jpg" >
-                <img 
-                    src="img/advokatur-treuhand-falkenstein-werner-rempfler-portrait.jpg" 
-                    alt="portrait von werner rempfler advokatur am falkenstein als schwarz weiss fotografie und bildkonzept"
-                    loading="lazy"
-                >
-            </picture>
-        </article>
+         <!--
+
+            Signaletik konzept aufzeigen mit türen beschriftung und co
+            Zahlen Grosse Zahlen
+
+
+           -->
         <article class="pGridItem1">
-            <picture>
-                <source type="image/webp" srcset="img/advokatur-treuhand-falkenstein-werner-rempfler-portrait-feldstecher.webp" >
-                <source type="image/jpg" srcset="img/advokatur-treuhand-falkenstein-werner-rempfler-portrait-feldstecher.jpg" >
-                <img 
-                    src="img/advokatur-treuhand-falkenstein-werner-rempfler-portrait-feldstecher.jpg" 
-                    alt="portrait von werner rempfler advokatur am falkenstein mit feldstecher in der hand und jagdhut auf dem kopf."
-                    loading="lazy"
-                >
-            </picture>
+            <video preload="none" autoplay muted playsinline loop > 
+                <source type="video/mp4" src="video/origym-scuol-typografie-animation.mp4" >  
+            </video>
         </article>
     </section>
 
     <!-- Next Project -->
     <section class="nextProjectGridContainer">
         <article class="npGridItemDescription">
-            <h4>Nächstes Projekte</h4>
+            <a href="ralph-schelling">nächstes Projekt</a>
         </article>
     </section>
 
-    <nav>
-        <a class="linkStart" href="index.html">SchwizerDesign</a>
-        <a class="linkAbout" href="index">About</a>
-    </nav>
-   
+    <?php include 'nav.php'; ?>
     <?php include 'footer.php'; ?>
+    <?php include 'script.php'; ?>
 </body>
 </html>

@@ -83,7 +83,7 @@ li a {
 
 nav {
     position: relative;
-    z-index: 100;
+    z-index: 110;
 }
 .linkStart {
     position: fixed;
@@ -141,8 +141,14 @@ header .description {
 }
 
 .gridItem {
+    position: relative;
     background-color: rgba(240, 240, 240, 0.95);
+}
 
+.gridItem a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .gridItem h2 {
@@ -197,13 +203,13 @@ img, video{
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 15px;
-    row-gap: 15px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
-.pGridItem1 {grid-column: span 1;}
-.pGridItem2 {grid-column: span 2;}
-.pGridItem3 {grid-column: span 3;}
+.pGridItem1 {display: inherit; grid-column: span 1;}
+.pGridItem2 {display: inherit; grid-column: span 2;}
+.pGridItem3 {display: inherit; grid-column: span 3;}
 
 .gridItem h2 {
     padding-top: 10px;
@@ -227,6 +233,17 @@ img, video{
     grid-column: 2 / span 2;
 }
 
+.nextproject {
+    position: relative;
+    z-index: 2;
+}
+.hiddenimg{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+}
+
 /* Footer */
 
 footer {
@@ -239,6 +256,22 @@ footer a {
     display: block;
 }
 
+/* Page Transition */
+
+.transition-3 {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    background-color: lavenderblush;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .transition-3.is-active {
+    top: 0;
+  }
 
 
 
