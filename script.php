@@ -1,4 +1,4 @@
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="./maintran.js"></script>
 
 <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

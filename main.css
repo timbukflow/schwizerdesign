@@ -28,7 +28,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background-color: #efefef; 
+    background-color: #131921; 
 }
 
 * {
@@ -42,7 +42,8 @@ h1, a {
     font-family: 'SohneBreitBuch', Helvetica, Sans-Serif;
     font-weight: normal;
     text-decoration: none;
-    color: #292929;
+    color: #434343;
+    transition: 0.5s ease-in-out;
     font-size: 70px;
 }
 
@@ -53,6 +54,10 @@ a {
     padding: 0;
     font-weight: normal;
     display: inline-block;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 /* Sohne */
@@ -69,7 +74,7 @@ li a {
     font-family: 'SohneLeicht', Helvetica, Sans-Serif;
     font-weight: normal;
     text-decoration: none;
-    color: #292929;
+    color: #434343;
     font-size: 18px;
     letter-spacing: 0.2px;
     line-height: 1.3;
@@ -132,23 +137,29 @@ header .description {
 /* Start Section  */
 
 .gridContainer {
-    padding: 25px;
+    padding: 10px;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 15px;
+    grid-gap: 10px;
     z-index: 90;
 }
 
 .gridItem {
     position: relative;
-    background-color: rgba(240, 240, 240, 0.95);
+    opacity: 0.05;
+    transition: 0.75s ease-in-out ;
+    /* background-color: rgba(240, 240, 240, 0.95); */
+}
+.gridItem:hover {
+    opacity: 1;
 }
 
 .gridItem a {
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 10;
 }
 
 .gridItem h2 {
@@ -156,6 +167,7 @@ header .description {
     padding-left: 5px;
     padding-bottom: 45px;
     margin: 0;
+    display: none;
 }
 
 
@@ -260,25 +272,20 @@ footer a {
 
 .transition-3 {
     position: fixed;
-    top: 100%;
+    top: -100%;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 101;
-    background-color: lavenderblush;
-    transition: 0.5s ease-in-out;
+    z-index: 100;
+    background: #ffffff; 
+    transition: 0.75s ease-in-out;
+    
   }
   
   .transition-3.is-active {
     top: 0;
+    
   }
-
-
-
-
-
-
-
 
 
 
