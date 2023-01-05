@@ -167,7 +167,7 @@ header .description {
 
 .gridItem {
     position: relative;
-    opacity: 1;
+    opacity: 0.2;
     transition: 0.75s ease-in-out ;
     /* filter: grayscale(100%); */
 }
