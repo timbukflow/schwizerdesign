@@ -30,6 +30,7 @@ body {
     padding: 0;
     background-color: #808290;
     /* background-color: #010311;  */
+    background-color: #f3f4fd;
 }
 
 .gray {
@@ -47,12 +48,12 @@ h1, a {
     font-family: 'SohneBreitBuch', Helvetica, Sans-Serif;
     font-weight: normal;
     text-decoration: none;
-    color: #545667;
+    color: #1b1b1b;
     font-size: 70px;
 }
 
 a {   
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 0.75px;
     margin: 0;
     padding: 0;
@@ -74,7 +75,7 @@ li a {
     font-family: 'SohneLeicht', Helvetica, Sans-Serif;
     font-weight: normal;
     text-decoration: none;
-    color: #545667;
+    color: #1b1b1b;
     font-size: 18px;
     letter-spacing: 0.2px;
     line-height: 1.3;
