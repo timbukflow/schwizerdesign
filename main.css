@@ -28,7 +28,8 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background-color: #010311; 
+    background-color: #808290;
+    /* background-color: #010311;  */
 }
 
 .gray {
@@ -165,13 +166,13 @@ header .description {
 
 .gridItem {
     position: relative;
-    opacity: 0.1;
+    opacity: 1;
     transition: 0.75s ease-in-out ;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 .gridItem.activ {
     opacity: 1;
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
 }
 
 .gridItem a {
@@ -285,7 +286,7 @@ footer a {
     width: 100%;
     height: 100%;
     z-index: 200;
-    background: #010311;
+    background: #808290;
     position: fixed;
     top: 0;
     opacity: 1;

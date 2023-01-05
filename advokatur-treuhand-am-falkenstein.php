@@ -9,7 +9,7 @@
     <title>Advokatur und Treuhand am Falkenstein</title>
     
 </head>
-<body>
+<body class="gray">
     <header class="projectHeader">
         <div class="projectTitel">
             <h1>Advokatur am Falkenstein</h1>

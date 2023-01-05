@@ -9,7 +9,7 @@
     <title>Origym Scuol</title>
     
 </head>
-<body>
+<body class="gray">
     <header class="projectHeader">
         <div class="projectTitel">
             <h1>Origym</h1>
