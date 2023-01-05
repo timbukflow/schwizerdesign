@@ -75,10 +75,10 @@
         </article>
         <article class="pGridItem1">
             <picture>
-                <source type="image/webp" srcset="img/ralph-schelling-gelbe-quitten-schimmelkaaese.webp" >
-                <source type="image/jpg" srcset="img/ralph-schelling-gelbe-quitten-schimmelkaaese.jpg" >
+                <source type="image/webp" srcset="img/ralph-schelling-gelbe-quitten-schimmelkaese.webp" >
+                <source type="image/jpg" srcset="img/ralph-schelling-gelbe-quitten-schimmelkaese.jpg" >
                 <img 
-                    src="img/ralph-schelling-gelbe-quitten-schimmelkaaese.jpg" 
+                    src="img/ralph-schelling-gelbe-quitten-schimmelkaese.jpg" 
                     alt="gelbe quitten und schimmelkäse auf altem holztisch mit ralph schelling und dem käser"
                     loading="lazy"
                 >
