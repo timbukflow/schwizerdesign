@@ -9,7 +9,7 @@
     <title>Ralph Schelling</title>
     
 </head>
-<body>
+<body class="gray">
     <header class="projectHeader">
         <div class="projectTitel">
             <h1>Ralph Schelling</h1>
@@ -153,7 +153,6 @@
         </article>
     </section>
 
-    
     <?php include 'nav.php'; ?>
     <?php include 'footer.php'; ?>
     <?php include 'script.php'; ?>

@@ -28,10 +28,11 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background-color: #e8e8e8; 
+    background-color: #010311; 
 }
-.dark {
-    background-color: #131921; 
+
+.gray {
+    background-color: #eeeeee;
 }
 
 * {
@@ -45,8 +46,7 @@ h1, a {
     font-family: 'SohneBreitBuch', Helvetica, Sans-Serif;
     font-weight: normal;
     text-decoration: none;
-    color: #434343;
-    
+    color: #545667;
     font-size: 70px;
 }
 
@@ -73,14 +73,29 @@ li a {
     font-family: 'SohneLeicht', Helvetica, Sans-Serif;
     font-weight: normal;
     text-decoration: none;
-    color: #434343;
+    color: #545667;
     font-size: 18px;
     letter-spacing: 0.2px;
     line-height: 1.3;
     list-style: none;
 }
 
+.description {
+    font-size: 20px;
+}
 
+.gray a,
+.gray h1,
+.gray h2,
+.gray h3,
+.gray p,
+.gray li {
+    color: #1b1b1b;
+}
+
+li:first-child {
+    color: #545667;
+}
 
 
 /* Navigation */
@@ -142,16 +157,21 @@ header .description {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     z-index: 90;
+
+    justify-items: center;
+    align-items: center;
+
 }
 
 .gridItem {
     position: relative;
-    opacity: 0.05;
-    /* transition: 0.75s ease-in-out ; */
-    /* background-color: rgba(240, 240, 240, 0.95); */
+    opacity: 0.1;
+    transition: 0.75s ease-in-out ;
+    filter: grayscale(100%);
 }
-.gridItem:hover {
+.gridItem.activ {
     opacity: 1;
+    filter: grayscale(0%);
 }
 
 .gridItem a {
@@ -164,9 +184,9 @@ header .description {
 .gridItem h2 {
     padding-top: 10px;
     padding-left: 5px;
-    padding-bottom: 45px;
+    /* padding-bottom: 45px; */
     margin: 0;
-    display: none;
+    font-size: 16px;
 }
 
 
@@ -199,9 +219,7 @@ img, video{
 .projectDescription .projektLink {
     margin-top: 20px;
 }
-.projectDescription li:first-child {
-    color: #c0c0c0;
-}
+
 .projectDescription span {
     display: block;
     text-indent: 2.5em;
@@ -222,12 +240,6 @@ img, video{
 .pGridItem2 {display: inherit; grid-column: span 2;}
 .pGridItem3 {display: inherit; grid-column: span 3;}
 
-.gridItem h2 {
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-bottom: 45px;
-    margin: 0;
-}
 
 /* Next Project Grid Section */
 
@@ -269,22 +281,26 @@ footer a {
 
 /* Page Transition */
 
-.transition-3 {
+  .loader{
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background: #010311;
     position: fixed;
-    top: -100%;
-    left: 0;
+    top: 0;
+    opacity: 1;
+  }
+
+  .loaderDark{
     width: 100%;
     height: 100%;
     z-index: 100;
-    background: #ffffff; 
-    transition: 0.75s ease-in-out;
-    
-  }
-  
-  .transition-3.is-active {
+    background: #431fe7;
+    position: fixed;
     top: 0;
-    
+    opacity: 1;
   }
+
 
 
 
