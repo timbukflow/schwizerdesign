@@ -146,11 +146,181 @@
         </article>       
     </section>
 
-    <!-- Next Project -->
-    <section class="nextProjectGridContainer">
-        <article class="npGridItemDescription">
-            <a href="origym-scuol">nächstes Projekt</a>
-        </article>
+
+    <!-- Next Project -->    
+       
+    <section class="nPContainer">
+        <h1>alle projekte</h1>
+        <section class="npGrid">
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-01.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-01.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-01.jpg" 
+                        alt="schwizer-design-test-01"
+                        title="schwizer-design-test-01"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-02.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-02.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-02.jpg" 
+                        alt="schwizer-design-test-02"
+                        title="schwizer-design-test-02"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-03.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-03.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-03.jpg" 
+                        alt="schwizer-design-test-03"
+                        title="schwizer-design-test-03"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-04.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-04.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-04.jpg" 
+                        alt="schwizer-design-test-04"
+                        title="schwizer-design-test-04"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-01.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-01.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-01.jpg" 
+                        alt="schwizer-design-test-01"
+                        title="schwizer-design-test-01"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-02.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-02.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-02.jpg" 
+                        alt="schwizer-design-test-02"
+                        title="schwizer-design-test-02"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-03.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-03.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-03.jpg" 
+                        alt="schwizer-design-test-03"
+                        title="schwizer-design-test-03"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-04.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-04.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-04.jpg" 
+                        alt="schwizer-design-test-04"
+                        title="schwizer-design-test-04"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-01.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-01.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-01.jpg" 
+                        alt="schwizer-design-test-01"
+                        title="schwizer-design-test-01"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-02.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-02.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-02.jpg" 
+                        alt="schwizer-design-test-02"
+                        title="schwizer-design-test-02"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-03.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-03.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-03.jpg" 
+                        alt="schwizer-design-test-03"
+                        title="schwizer-design-test-03"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+            <article class="npGridItem">
+                <a href="ralph-schelling"></a>
+                <picture>
+                    <source type="image/webp" srcset="img/schwizer-design-test-04.webp" >
+                    <source type="image/jpg" srcset="img/schwizer-design-test-04.jpg" >
+                    <img 
+                        src="img/schwizer-design-test-04.jpg" 
+                        alt="schwizer-design-test-04"
+                        title="schwizer-design-test-04"
+                        loading="lazy"
+                    >
+                </picture>
+                <h2>Ralph Schelling</h2>
+            </article>
+        </section>
     </section>
 
     <?php include 'nav.php'; ?>

@@ -31,5 +31,4 @@ window.onload = () => {
     $(this).toggleClass("activ");
   })
 
-
-  }) 
+}) 
