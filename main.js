@@ -1,13 +1,11 @@
-$(document).ready(function () {
-
 // Page Transition
 
 window.onload = () => {
     const links = document.querySelectorAll('a');
-    let loader = document.querySelector('.loader');
+    const loader = document.querySelectorAll('.loader');
   
     setTimeout(() => {
-      $(loader).fadeOut(1000);
+      $(loader).fadeOut(750);
     }, 200);
   
     for (let i = 0; i < links.length; i++) {
@@ -17,10 +15,10 @@ window.onload = () => {
         e.preventDefault();
         let target = e.target.href;
         
-        $(loader).fadeIn(1000);
+        $(loader).fadeIn(750);
         setInterval(() => {
           window.location.href = target;
-        }, 1000);
+        }, 750);
       })
     }
   }
@@ -31,4 +29,4 @@ window.onload = () => {
     $(this).toggleClass("activ");
   })
 
-}) 
+

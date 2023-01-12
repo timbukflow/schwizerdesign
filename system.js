@@ -1,11 +1,7 @@
-ScrollTrigger.defaults({
-    markers:false
-  })
-  
-  var points = gsap.utils.toArray('.point');
-  var indicators = gsap.utils.toArray('.indicator');
-  
-  var height = 100 * points.length;
+var points = gsap.utils.toArray('.point');
+var indicators = gsap.utils.toArray('.indicator');
+
+var height = 100 * points.length;
   
   gsap.set('.indicators', {display: "flex"});
   
@@ -29,23 +25,25 @@ ScrollTrigger.defaults({
       pin: ".philosophie .wrapper",
       pinSpacing: true,
       id: "pinning",
-      markers: true
+    //   markers: true
     }
   })
   
   
   
-  points.forEach(function(elem, i) {
-    gsap.set(elem, {position: "absolute", top: 0});
+  points.forEach(function(element, i) {
+    gsap.set(element, {position: "absolute", top: 0});
   
     tl.to(indicators[i], {backgroundColor: "orange", duration: 0.25}, i)
-    tl.from(elem.querySelector('img'), {autoAlpha:0}, i)
-    tl.from(elem.querySelector('article'), {autoAlpha:0}, i)
+    tl.from(element.querySelector('img'), {autoAlpha:0}, i)
+    tl.from(element.querySelector('article'), {autoAlpha:0}, i)
+    tl.from(element.querySelector('div'), {autoAlpha:0, translateY: 100}, i)
     
     if (i != points.length-1) {
-      tl.to(indicators[i], {backgroundColor: "#adadad", duration: 0.25}, i+0.75)
-      tl.to(elem.querySelector('article'), {autoAlpha:0}, i + 0.75)
-      tl.to(elem.querySelector('img'), {autoAlpha:100}, i + 0.75)
+      tl.to(indicators[i], {backgroundColor: "#adadad", duration: 0.25}, i + 0.75)
+      tl.to(element.querySelector('div'), {autoAlpha:0, translateX: 100}, i + 0.5)
+      tl.to(element.querySelector('article'), {autoAlpha:0}, i + 0.5)
+      tl.to(element.querySelector('img'), {autoAlpha:100}, i + 0.75)
     }
     
   });

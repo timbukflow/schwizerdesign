@@ -17,7 +17,12 @@
     </header>
 
     
+        <article class="big">
+            <h1>hello</h1>
+        </article>
 
+
+s
 
     <?php include 'nav.php'; ?>
     <?php include 'footer.php'; ?>

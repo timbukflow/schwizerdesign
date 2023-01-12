@@ -10,35 +10,47 @@
 </head>
 <body>
 
-
+<div class="einstieg">hallo</div>
 <section class="philosophie">
-  <div class="wrapper">
-    <div class="indicators">
-      <div class="indicator"></div>
-      <div class="indicator"></div>
-      <div class="indicator"></div>
-    </div>
-    <div class="point">
-      <article>
-        <h3>VISION</h3>
-      </article>
-      <img src="img/system-02.jpg" alt="random"  width="500" height="500" />
-    </div>
-    <div class="point">
-      <article>
-        <h3>POSITION</h3>
+
+    <div class="wrapper">
+        <div class="indicators">
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+        </div>
+
+        <div class="point">
+        <article>
+            <h3>VISION</h3>
+            
         </article>
-      <img src="img/system-03.jpg" alt="random"  width="500" height="500" />
-    </div>
-    <div class="point">
-      <article>
-        <h3>CREATION</h3>
+        <div class="systeminformation"><p>hallo</p></div>
+        <img src="img/system-02.jpg" alt="random"  width="500" height="500" />
+        </div>
         
-      </article>
-      <img src="img/system-04.jpg" alt="random"  width="500" height="500" />
+        <div class="point">
+        <article>
+            <h3>POSITION</h3>
+            
+        </article>
+        <div class="systeminformation"><p>hallo</p></div>
+            
+        
+        <img src="img/system-03.jpg" alt="random"  width="500" height="500" />
+        </div>
+        
+        <div class="point">
+        <article>
+            <h3>CREATION</h3>
+
+        </article>
+        <div class="systeminformation"><p>hallo</p></div>
+        <img src="img/system-04.jpg" alt="random"  width="500" height="500" />
+        </div>
     </div>
-  </div>
 </section>
+<div class="einstieg">hallo</div>
 
 
 
@@ -53,7 +65,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <script src="system.js"></script>
-    <script src="maintran.js"></script>
+    <script src="main.js"></script>
     
 </body>
 </html>
