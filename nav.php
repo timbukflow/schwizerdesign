@@ -1,5 +1,5 @@
 <!-- Page Navigation -->
-<!-- <div class="loader"></div> -->
+<div class="loader"></div>
 
 <nav >
     <a class="linkStart" href="index.html">SchwizerDesign</a>
